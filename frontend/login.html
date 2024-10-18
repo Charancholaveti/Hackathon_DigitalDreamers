@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2 class="login-heading">Student Details</h2>
+        <form class="login-form" id="loginForm">
+            <div class="form-group">
+                <label class="form-label" for="student-id">Student ID:</label>
+                <input class="form-input" type="text" id="student-id" name="student-id" placeholder="Enter your Student ID" required>
+                <small class="error-message" id="studentIdError"></small>
+            </div>
+
+            <div class="form-group">
+                <label class="form-label" for="password">Password:</label>
+                <input class="form-input" type="password" id="password" name="password" placeholder="Enter your Password" required>
+                <small class="error-message" id="passwordError"></small>
+            </div>
+
+            <button class="login-button" type="submit">Submit</button>
+        </form>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>

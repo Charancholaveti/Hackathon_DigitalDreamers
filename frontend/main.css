@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.marquee-container {
+    background-color: #1e90ff;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.dashboard {
+    width: 50%;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color:black;
+    font-weight: bold;
+    text-align: center;
+}
+h1{
+    background-color:#D2E0FB;
+}
+
+.dashboard-section {
+    margin-bottom: 40px;
+}
+
+/* Dropdown Styles */
+select {
+    width: 100%;
+    padding: 12px;
+    margin: 15px 0;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    transition: all 0.3s ease;
+}
+
+select:hover {
+    background-color: #eef3ff;
+    border-color: #1e90ff;
+}
+
+/* Lecturer Details */
+#theory-lecturer-details, #lab-lecturer-details {
+    background-color: #e7f3ff;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    display: none;
+}
+
+.next-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Space between container and button */
+}
+
+.next-button button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.next-button button:hover {
+    background-color: #45a049;
+}
+

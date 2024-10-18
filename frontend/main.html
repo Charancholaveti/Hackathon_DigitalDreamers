@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGM College Course Selection</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <!-- <div class="marquee-container">
+        <h2>RGM Nandyal</h2>
+    </div> -->
+
+    <div class="dashboard">
+        <h1>Course Selection System</h1>
+
+        <!-- Semester Selection -->
+        <div id="semester-selection">
+            <h2>Select Semester</h2>
+            <select id="semester-dropdown">
+                <option value="" disabled selected>Select Semester</option>
+                <option value="1">1st Semester</option>
+                <option value="2">2nd Semester</option>
+                <option value="3">3rd Semester</option>
+                <option value="4">4th Semester</option>
+                <option value="5">5th Semester</option>
+                <option value="6">6th Semester</option>
+                <option value="7">7th Semester</option>
+                <option value="8">8th Semester</option>
+                <!-- Add other semesters up to 8 -->
+            </select>
+        </div>
+
+        <div class="subject-dashboards">
+            <!-- Theory Subjects Dashboard -->
+            <div id="theory-dashboard" class="dashboard-section">
+                <h2>Theory Subjects </h2>
+                
+                <!-- Counter for selected theory subjects -->
+                <p id="theory-count">Selected Theory Subjects (0/4)</p> 
+                
+                <!-- Dropdown for selecting theory subjects -->
+                <select id="theory-dropdown">
+                    <option value="" disabled selected>Select Theory Subject</option>
+                </select>
+
+                <!-- Dropdown for selecting lecturer -->
+                <select id="theory-lecturer-dropdown" disabled>
+                    <option value="" disabled selected>Select Lecturer</option>
+                </select>
+
+                <!-- Display Lecturer Details -->
+                <div id="theory-lecturer-details"></div>
+            </div>
+
+            <!-- Lab Subjects Dashboard -->
+            <div id="lab-dashboard" class="dashboard-section">
+                <h2>Lab Subjects </h2>
+                
+                <!-- Counter for selected lab subjects -->
+                <p id="lab-count">Selected Lab Subjects (0/2)</p> 
+                
+                <!-- Dropdown for selecting lab subjects -->
+                <select id="lab-dropdown">
+                    <option value="" disabled selected>Select Lab Subject</option>
+                </select>
+
+                <!-- Dropdown for selecting lecturer -->
+                <select id="lab-lecturer-dropdown" disabled>
+                    <option value="" disabled selected>Select Lecturer</option>
+                </select>
+
+                <!-- Display Lecturer Details -->
+                <div id="lab-lecturer-details"></div>
+            </div>
+        </div>
+    </div>
+    <div class="next-button">
+        <a href="feed.html"><button>Next</button></a>
+    </div><br>
+
+    <script src="main.js"></script>
+</body>
+</html>
