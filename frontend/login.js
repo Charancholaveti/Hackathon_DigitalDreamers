@@ -18,7 +18,7 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
     }
 
     // Validate Password (at least 8 characters, 1 uppercase, 1 special character)
-    const passwordPattern = /^(?=.*[A-Z])(?=.*[!@#$%^&*()_+{}[\]:;<>,.?/~`]).{8,}$/;
+     const passwordPattern = /^(?=.*[A-Z])(?=.*[!@#$%^&*()_+{}[\]:;<>,.?/~`]).{8,}$/;
     if (!passwordPattern.test(password)) {
         document.getElementById('passwordError').innerText = 'Invalid password';
         isValid = false;
